@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Structure and JavaScript Plugins</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+
+        <h1 class="text-center mb-4">Bootstrap Structure and Files</h1>
+        <p class="text-center text-muted mb-5">
+            Exercise 2.1 & 2.2
+        </p>
+
+        <!-- CSS Folder -->
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3>CSS Folder</h3>
+                <p>
+                    The <strong>CSS</strong> folder contains Bootstrap stylesheet files
+                    used for designing responsive layouts, typography, buttons,
+                    colors, spacing, and other UI components.
+                </p>
+
+                <ul>
+                    <li>bootstrap.css</li>
+                    <li>bootstrap.min.css</li>
+                    <li>bootstrap.css.map</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- JS Folder -->
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3>JS Folder</h3>
+                <p>
+                    The <strong>JS</strong> folder contains JavaScript files that
+                    provide interactive components such as modals, dropdowns,
+                    accordions, carousels, tooltips, and collapse.
+                </p>
+
+                <ul>
+                    <li>bootstrap.js</li>
+                    <li>bootstrap.min.js</li>
+                    <li>bootstrap.bundle.js</li>
+                    <li>bootstrap.bundle.min.js</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Icons Folder -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3>Icons Folder</h3>
+                <p>
+                    The <strong>Icons</strong> folder contains Bootstrap Icons used
+                    to improve the appearance of web pages with graphical symbols.
+                </p>
+
+                <p>
+                    <strong>Note:</strong> Bootstrap Icons are downloaded separately
+                    from the main Bootstrap package.
+                </p>
+            </div>
+        </div>
+
+        <!-- Exercise 2.2 -->
+        <div class="card">
+            <div class="card-body">
+                <h3>Bootstrap JavaScript Plugin Demo</h3>
+
+                <p>
+                    Click the button below to test the <strong>Collapse</strong>
+                    JavaScript plugin.
+                </p>
+
+                <button class="btn btn-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#demoCollapse">
+                    Show / Hide Information
+                </button>
+
+                <div class="collapse mt-3" id="demoCollapse">
+                    <div class="alert alert-success mb-0">
+                        🎉 Success! The Collapse component is working, which means
+                        <strong>bootstrap.bundle.min.js</strong> has been included correctly.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
