@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4.1 - Two Column Layout</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+
+    <h1 class="text-center mb-4">Two-Column Layout</h1>
+    <p class="text-center text-muted mb-5">
+        Sidebar (col-md-3) and Content Area (col-md-9)
+    </p>
+
+    <div class="row">
+
+        <!-- Sidebar -->
+        <div class="col-md-3 mb-3">
+            <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    Sidebar
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Home</li>
+                        <li class="list-group-item">About</li>
+                        <li class="list-group-item">Services</li>
+                        <li class="list-group-item">Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Area -->
+        <div class="col-md-9">
+            <div class="card h-100">
+                <div class="card-header bg-success text-white">
+                    Main Content
+                </div>
+                <div class="card-body">
+                    <h3>Welcome!</h3>
+                    <p>
+                        This is the main content section. It occupies 9 out of
+                        12 grid columns on medium and larger screens, while the
+                        sidebar occupies 3 columns.
+                    </p>
+
+                    <p>
+                        On smaller devices, Bootstrap automatically stacks the
+                        sidebar above the content area, making the layout
+                        responsive.
+                    </p>
+
+                    <button class="btn btn-success">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
