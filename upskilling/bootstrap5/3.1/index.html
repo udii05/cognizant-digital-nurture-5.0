@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3.1 - Responsive Grid</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+
+        <h1 class="text-center mb-4">
+            Responsive Grid Layout
+        </h1>
+
+        <p class="text-center text-muted mb-5">
+            Three columns that stack on mobile, display two per row on tablets,
+            and three per row on desktops.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h3>Column 1</h3>
+                        <p>This is the first column.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h3>Column 2</h3>
+                        <p>This is the second column.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h3>Column 3</h3>
+                        <p>This is the third column.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
