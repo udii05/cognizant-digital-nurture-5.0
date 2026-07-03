@@ -14,8 +14,8 @@ public class FinancialForecasting {
 
     public static void main(String[] args) {
 
-        double currentValue = 10000;    // Initial investment
-        double growthRate = 0.10;       // 10% annual growth
+        double currentValue = 10000;
+        double growthRate = 0.10;
         int years = 5;
 
         double predictedValue = futureValue(currentValue, growthRate, years);
